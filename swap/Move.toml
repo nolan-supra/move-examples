@@ -1,0 +1,14 @@
+[package]
+name = "swap"
+version = "0.0.0"
+
+[addresses]
+deployer = "0xCAFE"
+swap = "0xCAFE"
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
